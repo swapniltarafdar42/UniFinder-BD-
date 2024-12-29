@@ -1,0 +1,27 @@
+name: unifinder_bd
+description: A Flutter app to explore bachelor's programs offered by public universities in Bangladesh.
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0        # Core Firebase SDK
+  firebase_auth: ^4.17.8        # Firebase Authentication
+  form_field_validator: ^1.1.0  # Form validation utilities
+  provider: ^6.1.2              # State management
+  flutter_localizations:        # Localization support
+    sdk: flutter
+  intl: ^0.18.1                 # Internationalization and formatting
+  url_launcher: ^6.2.4          # For opening URLs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter                # Testing utilities for Flutter
+
+flutter:
+  uses-material-design: true     # Ensures Material Design icons and fonts
+  assets:
+    - assets/unfinder.json       # Path to the JSON file
+    - assets/images/             # Path to the images folder where university logos are stored
